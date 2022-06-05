@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KPKri\\OneDrive\\Desktop\\htmlcss\\Inlamning_API\\Inlamning_API\\Inlamning_API\\Inlamning_API.csproj": {}
+    "C:\\WIN21\\Inlamning-API\\Inlamning_API\\Inlamning_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KPKri\\OneDrive\\Desktop\\htmlcss\\Inlamning_API\\Inlamning_API\\Inlamning_API\\Inlamning_API.csproj": {
+    "C:\\WIN21\\Inlamning-API\\Inlamning_API\\Inlamning_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KPKri\\OneDrive\\Desktop\\htmlcss\\Inlamning_API\\Inlamning_API\\Inlamning_API\\Inlamning_API.csproj",
+        "projectUniqueName": "C:\\WIN21\\Inlamning-API\\Inlamning_API\\Inlamning_API.csproj",
         "projectName": "Inlamning_API",
-        "projectPath": "C:\\Users\\KPKri\\OneDrive\\Desktop\\htmlcss\\Inlamning_API\\Inlamning_API\\Inlamning_API\\Inlamning_API.csproj",
+        "projectPath": "C:\\WIN21\\Inlamning-API\\Inlamning_API\\Inlamning_API.csproj",
         "packagesPath": "C:\\Users\\KPKri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KPKri\\OneDrive\\Desktop\\htmlcss\\Inlamning_API\\Inlamning_API\\Inlamning_API\\obj\\",
+        "outputPath": "C:\\WIN21\\Inlamning-API\\Inlamning_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KPKri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
